@@ -13,7 +13,7 @@ The analysis follows a complete data workflow:
 * Visualization
 * Business recommendation
 
----
+
 
 ## 🎯 Objective
 
@@ -23,7 +23,7 @@ To identify the better-performing campaign by evaluating:
 * Conversion efficiency (Conversion Rate)
 * Cost efficiency (CPA)
 
----
+
 
 ## 📁 Dataset
 
@@ -45,7 +45,7 @@ The dataset consists of two groups:
 
 📌 Note: Data is aggregated (daily level), not user-level.
 
----
+
 
 ## ⚙️ Methodology
 
@@ -57,7 +57,7 @@ The dataset consists of two groups:
 * Handled missing values
 * Merged control and test datasets
 
----
+
 
 ### 2. Feature Engineering
 
@@ -71,7 +71,7 @@ Created key performance metrics:
 
 📌 Insight: Raw counts are less meaningful than ratios for performance evaluation.
 
----
+
 
 ### 3. Exploratory Analysis
 
@@ -81,7 +81,7 @@ Comparison between control and test campaigns:
 * Control campaign → higher conversion rate (better funnel quality)
 * Control campaign → lower CPA (better cost efficiency)
 
----
+
 
 ### 4. Statistical Testing
 
@@ -99,7 +99,7 @@ A **Z-test for proportions** was used to determine if the difference in conversi
 
 📌 Conclusion: The difference is statistically significant (not due to chance).
 
----
+
 
 ### 5. Visualization
 
@@ -117,7 +117,7 @@ Impressions → Clicks → Add to Cart → Purchase
 📌 Insight:
 The control campaign retains more users across the funnel, while the test campaign shows higher drop-off after clicks.
 
----
+
 
 ## 🔍 Key Insights
 
@@ -127,7 +127,7 @@ The control campaign retains more users across the funnel, while the test campai
 * Control campaign achieves lower cost per acquisition
 * Statistical testing confirms results are reliable
 
----
+
 
 ## ✅ Final Recommendation
 
@@ -143,7 +143,7 @@ The **Control Campaign** is the better-performing strategy because:
 * Scale the control campaign
 * Optimize the test campaign (targeting, messaging, landing page)
 
----
+
 
 ## 🛠️ Tools & Technologies
 
@@ -153,11 +153,11 @@ The **Control Campaign** is the better-performing strategy because:
 * Matplotlib
 * Statsmodels
 
----
+
 
 ## 📌 Project Structure
 
-```
+
 ab-testing-marketing-campaign/
 │
 ├── notebooks/
@@ -166,9 +166,9 @@ ab-testing-marketing-campaign/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
-```
 
----
+
+
 
 ## 📈 What This Project Demonstrates
 
@@ -178,13 +178,12 @@ ab-testing-marketing-campaign/
 * Marketing funnel analysis
 * Business-focused insights
 
----
 
 ## 🔥 Key Takeaway
 
 > Performance is not just about attracting users — it’s about converting them efficiently and minimizing acquisition cost.
 
----
+
 
 ## 👤 Author
 
