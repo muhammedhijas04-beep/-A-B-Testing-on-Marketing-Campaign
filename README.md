@@ -189,10 +189,3 @@ ab-testing-marketing-campaign/
 ## 👤 Author
 
 **Muhammed Hijas**
-
----
-
-## ⭐ If you found this useful
-
-Feel free to star ⭐ the repository!
-
